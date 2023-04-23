@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+li, a, button{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 650;
+}
+.logo{
+    object-fit: contain;
+    cursor: pointer;
+    margin-right: auto;
+    padding-top: 50px;
+    scale: 0.4;
+    background-color: white;
+
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    height: 8vh;
+}
+nav{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(13, 60, 72);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+ 
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+
+.hero-bg{
+    background-image: url(../images/brand/placeholder.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(47, 43, 43);
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-secondary{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgb(179, 166, 166);
+}
+
+.speaker-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 30px 10%;
+}
+
+.image-div{
+    display: flex;
+}
+
+.image-div img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.image-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;;
+    margin: 0 20px;
+
+}
+.image-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.image-desc{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(179, 166, 166);
+}
+
+.imageat{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(179, 166, 166);
+    padding-top: 15px;
+}
+.container{
+    padding: 30px 10%;
+}
+
